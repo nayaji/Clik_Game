@@ -1,0 +1,124 @@
+/* Style général */
+body {
+  font-family: 'Press Start 2P', cursive; /* Police de style rétro gaming */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1a1a1d, #4e4e50);
+  color: #ffffff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #00ff99;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+  margin-top: 20px;
+}
+
+p {
+  color: #cccccc;
+  font-size: 1.2em;
+}
+
+/* Conteneur principal */
+.container {
+  padding: 30px;
+}
+
+/* Boîtes des jeux */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  background: linear-gradient(145deg, #2d2d2f, #1a1a1d);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.1) inset;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.6), 0 0 30px rgba(0, 255, 153, 0.4);
+}
+
+h2 {
+  color: #00ccff;
+  text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff;
+}
+
+/* Bouton de jeu */
+button {
+  padding: 15px 30px;
+  background: linear-gradient(145deg, #00ff99, #00cc88);
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 15px rgba(0, 255, 153, 0.6), inset 0 0 5px rgba(0, 255, 153, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(145deg, #00cc88, #009966);
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.8), 0 0 10px rgba(0, 255, 153, 0.5);
+}
+
+/* Texte dans les scores */
+#score, #timer {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6699;
+  text-shadow: 0 0 10px #ff6699, 0 0 20px #ff6699;
+}
+
+/* Lien de déconnexion */
+a {
+  display: block;
+  margin-top: 20px;
+  color: #ff0066;
+  font-size: 1em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff6699;
+  text-shadow: 0 0 10px #ff6699, 0 0 20px #ff6699;
+}
+
+/* Effets d'arrière-plan animés */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, transparent, #000000);
+  animation: pulse 5s infinite alternate;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
