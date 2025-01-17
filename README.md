@@ -42,19 +42,9 @@ CLIK est un mini-jeu amusant et interactif qui teste vos réflexes ! L'objectif 
 
 Voici les principaux fichiers et répertoires de ce projet :
 
-```
-CLIK/
-├── index.html         # Fichier principal du jeu
-├── style.css          # Feuille de style pour le design gaming
-├── game.js            # Script JavaScript pour la logique du jeu
-└── README.md          # Documentation du projet
-```
 
 ---
 
-## 📷 Aperçu
-
-![Aperçu du jeu CLIK](https://via.placeholder.com/800x400.png?text=Aper%C3%A7u+du+jeu+CLIK)
 
 ---
 
@@ -96,8 +86,8 @@ Ce projet est sous licence MIT. Vous pouvez en faire ce que vous voulez, tout en
 ## 👤 Auteur
 
 - **Votre Nom**  
-  - GitHub : [votre-utilisateur](https://github.com/votre-utilisateur)  
-  - Email : votre.email@example.com
+  - GitHub : [Najib Taiek](https://github.com/nayaji)  
+  - Email : najibtaiek.pro@gmail.com
 
 ---
 
