@@ -38,16 +38,6 @@ CLIK est un mini-jeu amusant et interactif qui teste vos réflexes ! L'objectif 
 
 ---
 
-## 📂 Structure du projet
-
-Voici les principaux fichiers et répertoires de ce projet :
-
-
----
-
-
----
-
 ## 🌟 Pourquoi jouer à CLIK ?
 
 - 🧠 **Améliore vos réflexes** : Travaillez votre coordination œil-main.
